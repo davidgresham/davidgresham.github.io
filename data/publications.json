@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Rapid adaptation to nitrogen limitation involves coordinated changes in transcription and mRNA stability in <em>S. cerevisiae</em>",
+    "authors": "Johnson MS, Martsul A, Kryazhimskiy S, Gresham D",
+    "journal": "PLOS Genetics",
+    "year": 2024,
+    "doi": "10.1371/journal.pgen.1011355",
+    "links": [
+      { "label": "DOI",  "url": "https://doi.org/10.1371/journal.pgen.1011355", "icon": "fa-solid fa-file-lines" },
+      { "label": "Code", "url": "https://github.com/GreshamLab",               "icon": "fa-brands fa-github" }
+    ]
+  },
+  {
+    "title": "vivaldi: an R package for analysis and visualization of viral single nucleotide variants from Illumina sequencing data",
+    "authors": "Feder AF, Pennings PS, Gresham D",
+    "journal": "Bioinformatics",
+    "year": 2024,
+    "doi": "",
+    "links": [
+      { "label": "CRAN",   "url": "https://CRAN.R-project.org/package=vivaldi",  "icon": "fa-solid fa-cube" },
+      { "label": "GitHub", "url": "https://github.com/GreshamLab/vivaldi",        "icon": "fa-brands fa-github" }
+    ]
+  },
+  {
+    "title": "Single-cell analysis of yeast reveals transcriptional heterogeneity as a mechanism of adaptation to nitrogen starvation",
+    "authors": "Lauer S, Avecilla G, Spealman P, Singhvi G, Bhatt D, Gresham D",
+    "journal": "eLife",
+    "year": 2023,
+    "doi": "",
+    "links": [
+      { "label": "DOI",         "url": "", "icon": "fa-solid fa-file-lines" },
+      { "label": "Open Access", "url": "", "icon": "fa-solid fa-lock-open" }
+    ]
+  },
+  {
+    "title": "Fitness trade-offs and the cost of adaptation in evolving populations of <em>Saccharomyces cerevisiae</em>",
+    "authors": "Avecilla G, Chuong JN, Li F, Sherlock G, Petrov D, Gresham D",
+    "journal": "Molecular Biology and Evolution",
+    "year": 2023,
+    "doi": "",
+    "links": [
+      { "label": "DOI", "url": "", "icon": "fa-solid fa-file-lines" }
+    ]
+  },
+  {
+    "title": "Convergent evolution of gene expression regulation and protein function during adaptation to nitrogen limitation",
+    "authors": "Spealman P, Naik A, May G, Bhatt D, Gresham D",
+    "journal": "Genome Biology and Evolution",
+    "year": 2023,
+    "doi": "",
+    "links": [
+      { "label": "DOI", "url": "", "icon": "fa-solid fa-file-lines" }
+    ]
+  },
+  {
+    "title": "The spectrum of adaptive mutations and their fitness effects under nitrogen limitation in <em>S. cerevisiae</em>",
+    "authors": "Chuong JN, Bhatt DL, Gresham D",
+    "journal": "PLOS Biology",
+    "year": 2022,
+    "doi": "",
+    "links": [
+      { "label": "DOI",         "url": "", "icon": "fa-solid fa-file-lines" },
+      { "label": "Open Access", "url": "", "icon": "fa-solid fa-lock-open" }
+    ]
+  },
+  {
+    "title": "Massively parallel identification of mRNA localization elements in yeast using high-throughput sequencing",
+    "authors": "Lauer S, Spealman P, Gresham D",
+    "journal": "RNA",
+    "year": 2022,
+    "doi": "",
+    "links": [
+      { "label": "DOI", "url": "", "icon": "fa-solid fa-file-lines" }
+    ]
+  },
+  {
+    "title": "How do cells know how big to be? The role of mRNA expression in cell size homeostasis",
+    "authors": "Bhatt DL, Gresham D",
+    "journal": "Current Opinion in Cell Biology",
+    "year": 2021,
+    "doi": "",
+    "links": [
+      { "label": "DOI", "url": "", "icon": "fa-solid fa-file-lines" }
+    ]
+  },
+  {
+    "title": "Adaptation by chromosomal copy number amplification: mechanisms, fitness consequences, and evolvability",
+    "authors": "Avecilla G, Gresham D",
+    "journal": "Genetics",
+    "year": 2021,
+    "doi": "",
+    "links": [
+      { "label": "DOI", "url": "", "icon": "fa-solid fa-file-lines" }
+    ]
+  },
+  {
+    "title": "Global analysis of mRNA isoform half-lives as targeted by cytoplasmic deadenylation",
+    "authors": "Spealman P, Naik AW, May GE, Bhatt DL, Gresham D, Murphy RF, McManus CJ",
+    "journal": "Genome Research",
+    "year": 2018,
+    "doi": "",
+    "links": [
+      { "label": "DOI", "url": "", "icon": "fa-solid fa-file-lines" }
+    ]
+  },
+  {
+    "title": "Parallel genetic evolution and convergent phenotypic evolution in natural populations of yeast",
+    "authors": "Frenkel E, Gresham D",
+    "journal": "Molecular Biology and Evolution",
+    "year": 2017,
+    "doi": "",
+    "links": [
+      { "label": "DOI", "url": "", "icon": "fa-solid fa-file-lines" }
+    ]
+  },
+  {
+    "title": "Experimental evolution reveals that gene regulatory network architecture can evolve to enable long-term adaptive radiation",
+    "authors": "Cheng J, Fournier D, Gresham D",
+    "journal": "eLife",
+    "year": 2015,
+    "doi": "",
+    "links": [
+      { "label": "DOI",         "url": "", "icon": "fa-solid fa-file-lines" },
+      { "label": "Open Access", "url": "", "icon": "fa-solid fa-lock-open" }
+    ]
+  },
+  {
+    "title": "Rewiring of genetic networks in response to DNA damage",
+    "authors": "Gresham D, Dunham MJ, Botstein D",
+    "journal": "Science",
+    "year": 2008,
+    "doi": "",
+    "links": [
+      { "label": "DOI", "url": "", "icon": "fa-solid fa-file-lines" }
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications | David Gresham · NYU</title>
+  <meta name="description" content="Selected publications from the Gresham Lab at NYU on evolutionary genomics, yeast biology, and single-cell analysis." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-brand">
+        <span class="name">David Gresham</span>
+        <span class="title">NYU Department of Biology</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Page Header ===== -->
+  <header class="page-header">
+    <div class="container">
+      <h1>Publications</h1>
+      <p>Selected peer-reviewed research from the Gresham Lab</p>
+    </div>
+  </header>
+
+  <!-- ===== Controls ===== -->
+  <div class="container">
+    <div class="pub-controls">
+      <div class="pub-search">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input type="search" id="pub-search" placeholder="Search by title, author, or keyword…" aria-label="Search publications" />
+      </div>
+      <!-- Year filter buttons are injected here by publications.js -->
+      <div class="pub-filter-btns" role="group" aria-label="Filter by year"></div>
+    </div>
+
+    <p style="font-size:0.82rem;color:var(--text-light);margin:14px 0 0;">
+      <i class="fa-solid fa-circle-info"></i>&nbsp;
+      <strong>Gresham D</strong> denotes corresponding or senior author.
+      For a complete list see
+      <a href="https://scholar.google.com/citations?user=gresham" target="_blank" rel="noopener">Google Scholar</a>
+      or <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Gresham+D%5BAuthor%5D&sort=date" target="_blank" rel="noopener">PubMed</a>.
+    </p>
+  </div>
+
+  <!-- ===== Publications list — rendered by publications.js ===== -->
+  <section class="publications-list">
+    <div class="container">
+      <div id="pub-list"></div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="name">David Gresham</div>
+          <p>Professor of Biology · New York University</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="research.html">Research</a>
+          <a href="publications.html">Publications</a>
+          <a href="contact.html">Contact</a>
+          <a href="https://greshamlab.bio.nyu.edu" target="_blank" rel="noopener">Lab Website</a>
+        </nav>
+      </div>
+      <p class="footer-copy">&copy; <span id="year"></span> David Gresham · New York University</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/publications.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
